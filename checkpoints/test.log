@@ -1,0 +1,454 @@
+2017-11-28 01:58:46,255 [DEBUG]: Namespace(batch_size=25, cuda=False, data='data/sick/', epochs=10, expname='test', glove='data/glove/', hidden_dim=50, input_dim=300, lr=0.05, mem_dim=150, num_classes=5, optim='adagrad', save='checkpoints/', seed=123, sparse=False, wd=0.0001, with_rels=False)
+2017-11-28 01:58:46,255 [DEBUG]: ==> Depenency Relations size: 37
+2017-11-28 01:58:46,258 [DEBUG]: ==> SICK vocabulary size : 2412 
+2017-11-28 01:58:47,021 [DEBUG]: ==> Size of train data   : 4500 
+2017-11-28 01:58:47,120 [DEBUG]: ==> Size of dev data     : 500 
+2017-11-28 01:58:47,821 [DEBUG]: ==> Size of test data    : 4927 
+2017-11-28 02:02:28,880 [DEBUG]: Epoch 1, Dev loss: 0.1317, Pearson: 0.7904, MSE: 0.4102
+2017-11-28 02:02:28,880 [DEBUG]: Epoch 1, Test loss: 0.1237, Pearson: 0.7986, MSE: 0.3959
+2017-11-28 02:02:28,880 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 02:06:11,215 [DEBUG]: Epoch 2, Dev loss: 0.1072, Pearson: 0.8368, MSE: 0.3239
+2017-11-28 02:06:11,215 [DEBUG]: Epoch 2, Test loss: 0.1051, Pearson: 0.8398, MSE: 0.3248
+2017-11-28 02:06:11,215 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 02:09:53,910 [DEBUG]: Epoch 3, Dev loss: 0.1036, Pearson: 0.8483, MSE: 0.2940
+2017-11-28 02:09:53,910 [DEBUG]: Epoch 3, Test loss: 0.0991, Pearson: 0.8524, MSE: 0.2856
+2017-11-28 02:09:53,910 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 02:13:36,054 [DEBUG]: Epoch 4, Dev loss: 0.1017, Pearson: 0.8554, MSE: 0.2814
+2017-11-28 02:13:36,054 [DEBUG]: Epoch 4, Test loss: 0.0976, Pearson: 0.8558, MSE: 0.2779
+2017-11-28 02:13:36,054 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 02:17:18,828 [DEBUG]: Epoch 5, Dev loss: 0.1024, Pearson: 0.8613, MSE: 0.2772
+2017-11-28 02:17:18,829 [DEBUG]: Epoch 5, Test loss: 0.0996, Pearson: 0.8588, MSE: 0.2785
+2017-11-28 02:17:18,829 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 02:21:03,180 [DEBUG]: Epoch 6, Dev loss: 0.0986, Pearson: 0.8613, MSE: 0.2608
+2017-11-28 02:21:03,181 [DEBUG]: Epoch 6, Test loss: 0.0980, Pearson: 0.8572, MSE: 0.2703
+2017-11-28 02:24:48,293 [DEBUG]: Epoch 7, Dev loss: 0.0956, Pearson: 0.8694, MSE: 0.2437
+2017-11-28 02:24:48,294 [DEBUG]: Epoch 7, Test loss: 0.0974, Pearson: 0.8626, MSE: 0.2632
+2017-11-28 02:24:48,294 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 02:28:33,108 [DEBUG]: Epoch 8, Dev loss: 0.1001, Pearson: 0.8628, MSE: 0.2552
+2017-11-28 02:28:33,108 [DEBUG]: Epoch 8, Test loss: 0.0992, Pearson: 0.8600, MSE: 0.2651
+2017-11-28 02:32:18,108 [DEBUG]: Epoch 9, Dev loss: 0.0993, Pearson: 0.8651, MSE: 0.2531
+2017-11-28 02:32:18,108 [DEBUG]: Epoch 9, Test loss: 0.0987, Pearson: 0.8616, MSE: 0.2633
+2017-11-28 02:36:38,662 [DEBUG]: Epoch 10, Train loss: 0.0354, Pearson: 0.9761, MSE: 0.0515
+2017-11-28 02:36:38,662 [DEBUG]: Epoch 10, Dev loss: 0.1019, Pearson: 0.8662, MSE: 0.2493
+2017-11-28 02:36:38,663 [DEBUG]: Epoch 10, Test loss: 0.1018, Pearson: 0.8607, MSE: 0.2641
+2017-11-28 02:36:39,225 [DEBUG]: Namespace(batch_size=25, cuda=False, data='data/sick/', epochs=10, expname='test', glove='data/glove/', hidden_dim=50, input_dim=300, lr=0.05, mem_dim=150, num_classes=5, optim='adagrad', save='checkpoints/', seed=123, sparse=False, wd=0.0001, with_rels=False)
+2017-11-28 02:36:39,225 [DEBUG]: ==> Depenency Relations size: 37
+2017-11-28 02:36:39,228 [DEBUG]: ==> SICK vocabulary size : 2412 
+2017-11-28 02:36:39,810 [DEBUG]: ==> Size of train data   : 4500 
+2017-11-28 02:36:39,911 [DEBUG]: ==> Size of dev data     : 500 
+2017-11-28 02:36:40,638 [DEBUG]: ==> Size of test data    : 4927 
+2017-11-28 02:40:26,238 [DEBUG]: Epoch 1, Dev loss: 0.1315, Pearson: 0.7878, MSE: 0.4269
+2017-11-28 02:40:26,238 [DEBUG]: Epoch 1, Test loss: 0.1230, Pearson: 0.8063, MSE: 0.3920
+2017-11-28 02:40:26,238 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 02:44:12,296 [DEBUG]: Epoch 2, Dev loss: 0.1070, Pearson: 0.8378, MSE: 0.3237
+2017-11-28 02:44:12,297 [DEBUG]: Epoch 2, Test loss: 0.1033, Pearson: 0.8458, MSE: 0.3121
+2017-11-28 02:44:12,297 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 02:47:58,543 [DEBUG]: Epoch 3, Dev loss: 0.1084, Pearson: 0.8343, MSE: 0.3215
+2017-11-28 02:47:58,544 [DEBUG]: Epoch 3, Test loss: 0.0993, Pearson: 0.8565, MSE: 0.2835
+2017-11-28 02:47:58,544 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 02:51:44,897 [DEBUG]: Epoch 4, Dev loss: 0.1035, Pearson: 0.8444, MSE: 0.2948
+2017-11-28 02:51:44,897 [DEBUG]: Epoch 4, Test loss: 0.0986, Pearson: 0.8519, MSE: 0.2832
+2017-11-28 02:55:31,262 [DEBUG]: Epoch 5, Dev loss: 0.1020, Pearson: 0.8523, MSE: 0.2805
+2017-11-28 02:55:31,263 [DEBUG]: Epoch 5, Test loss: 0.0991, Pearson: 0.8550, MSE: 0.2769
+2017-11-28 02:59:17,354 [DEBUG]: Epoch 6, Dev loss: 0.1002, Pearson: 0.8531, MSE: 0.2735
+2017-11-28 02:59:17,355 [DEBUG]: Epoch 6, Test loss: 0.0982, Pearson: 0.8589, MSE: 0.2703
+2017-11-28 02:59:17,355 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 03:03:03,384 [DEBUG]: Epoch 7, Dev loss: 0.1022, Pearson: 0.8530, MSE: 0.2737
+2017-11-28 03:03:03,384 [DEBUG]: Epoch 7, Test loss: 0.0978, Pearson: 0.8625, MSE: 0.2634
+2017-11-28 03:03:03,384 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 03:06:49,861 [DEBUG]: Epoch 8, Dev loss: 0.0993, Pearson: 0.8608, MSE: 0.2603
+2017-11-28 03:06:49,861 [DEBUG]: Epoch 8, Test loss: 0.0977, Pearson: 0.8619, MSE: 0.2623
+2017-11-28 03:10:36,586 [DEBUG]: Epoch 9, Dev loss: 0.1010, Pearson: 0.8588, MSE: 0.2630
+2017-11-28 03:10:36,586 [DEBUG]: Epoch 9, Test loss: 0.0987, Pearson: 0.8635, MSE: 0.2590
+2017-11-28 03:10:36,586 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 03:14:58,747 [DEBUG]: Epoch 10, Train loss: 0.0362, Pearson: 0.9749, MSE: 0.0537
+2017-11-28 03:14:58,747 [DEBUG]: Epoch 10, Dev loss: 0.1026, Pearson: 0.8597, MSE: 0.2607
+2017-11-28 03:14:58,747 [DEBUG]: Epoch 10, Test loss: 0.1009, Pearson: 0.8642, MSE: 0.2588
+2017-11-28 03:14:58,747 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 03:14:59,325 [DEBUG]: Namespace(batch_size=25, cuda=False, data='data/sick/', epochs=10, expname='test', glove='data/glove/', hidden_dim=50, input_dim=300, lr=0.05, mem_dim=150, num_classes=5, optim='adagrad', save='checkpoints/', seed=123, sparse=False, wd=0.0001, with_rels=False)
+2017-11-28 03:14:59,325 [DEBUG]: ==> Depenency Relations size: 37
+2017-11-28 03:14:59,328 [DEBUG]: ==> SICK vocabulary size : 2412 
+2017-11-28 03:14:59,904 [DEBUG]: ==> Size of train data   : 4500 
+2017-11-28 03:15:00,003 [DEBUG]: ==> Size of dev data     : 500 
+2017-11-28 03:15:00,733 [DEBUG]: ==> Size of test data    : 4927 
+2017-11-28 03:18:46,498 [DEBUG]: Epoch 1, Dev loss: 0.1284, Pearson: 0.7932, MSE: 0.4049
+2017-11-28 03:18:46,499 [DEBUG]: Epoch 1, Test loss: 0.1226, Pearson: 0.8025, MSE: 0.3895
+2017-11-28 03:18:46,499 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 03:22:32,803 [DEBUG]: Epoch 2, Dev loss: 0.1086, Pearson: 0.8272, MSE: 0.3342
+2017-11-28 03:22:32,804 [DEBUG]: Epoch 2, Test loss: 0.1058, Pearson: 0.8345, MSE: 0.3267
+2017-11-28 03:22:32,804 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 03:26:18,517 [DEBUG]: Epoch 3, Dev loss: 0.1042, Pearson: 0.8488, MSE: 0.3008
+2017-11-28 03:26:18,517 [DEBUG]: Epoch 3, Test loss: 0.1018, Pearson: 0.8478, MSE: 0.2989
+2017-11-28 03:26:18,517 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 03:30:04,449 [DEBUG]: Epoch 4, Dev loss: 0.1007, Pearson: 0.8553, MSE: 0.2806
+2017-11-28 03:30:04,450 [DEBUG]: Epoch 4, Test loss: 0.0996, Pearson: 0.8518, MSE: 0.2850
+2017-11-28 03:30:04,450 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 03:33:50,252 [DEBUG]: Epoch 5, Dev loss: 0.1019, Pearson: 0.8564, MSE: 0.2781
+2017-11-28 03:33:50,252 [DEBUG]: Epoch 5, Test loss: 0.1019, Pearson: 0.8515, MSE: 0.2877
+2017-11-28 03:37:35,768 [DEBUG]: Epoch 6, Dev loss: 0.0989, Pearson: 0.8558, MSE: 0.2680
+2017-11-28 03:37:35,768 [DEBUG]: Epoch 6, Test loss: 0.0998, Pearson: 0.8532, MSE: 0.2766
+2017-11-28 03:37:35,768 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 03:41:21,949 [DEBUG]: Epoch 7, Dev loss: 0.0996, Pearson: 0.8583, MSE: 0.2637
+2017-11-28 03:41:21,949 [DEBUG]: Epoch 7, Test loss: 0.1007, Pearson: 0.8551, MSE: 0.2757
+2017-11-28 03:41:21,949 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 03:45:08,192 [DEBUG]: Epoch 8, Dev loss: 0.1000, Pearson: 0.8606, MSE: 0.2608
+2017-11-28 03:45:08,193 [DEBUG]: Epoch 8, Test loss: 0.1002, Pearson: 0.8571, MSE: 0.2709
+2017-11-28 03:45:08,193 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 03:48:54,097 [DEBUG]: Epoch 9, Dev loss: 0.1015, Pearson: 0.8596, MSE: 0.2624
+2017-11-28 03:48:54,098 [DEBUG]: Epoch 9, Test loss: 0.1014, Pearson: 0.8579, MSE: 0.2701
+2017-11-28 03:48:54,098 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 03:53:16,185 [DEBUG]: Epoch 10, Train loss: 0.0368, Pearson: 0.9736, MSE: 0.0575
+2017-11-28 03:53:16,185 [DEBUG]: Epoch 10, Dev loss: 0.1051, Pearson: 0.8579, MSE: 0.2638
+2017-11-28 03:53:16,186 [DEBUG]: Epoch 10, Test loss: 0.1060, Pearson: 0.8553, MSE: 0.2745
+2017-11-28 03:53:16,752 [DEBUG]: Namespace(batch_size=25, cuda=False, data='data/sick/', epochs=10, expname='test', glove='data/glove/', hidden_dim=50, input_dim=300, lr=0.05, mem_dim=150, num_classes=5, optim='adagrad', save='checkpoints/', seed=123, sparse=False, wd=0.0001, with_rels=False)
+2017-11-28 03:53:16,752 [DEBUG]: ==> Depenency Relations size: 37
+2017-11-28 03:53:16,755 [DEBUG]: ==> SICK vocabulary size : 2412 
+2017-11-28 03:53:17,357 [DEBUG]: ==> Size of train data   : 4500 
+2017-11-28 03:53:17,462 [DEBUG]: ==> Size of dev data     : 500 
+2017-11-28 03:53:18,214 [DEBUG]: ==> Size of test data    : 4927 
+2017-11-28 03:57:03,867 [DEBUG]: Epoch 1, Dev loss: 0.1337, Pearson: 0.7751, MSE: 0.4343
+2017-11-28 03:57:03,868 [DEBUG]: Epoch 1, Test loss: 0.1256, Pearson: 0.7908, MSE: 0.4068
+2017-11-28 03:57:03,868 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 04:00:49,388 [DEBUG]: Epoch 2, Dev loss: 0.1098, Pearson: 0.8261, MSE: 0.3391
+2017-11-28 04:00:49,388 [DEBUG]: Epoch 2, Test loss: 0.1048, Pearson: 0.8402, MSE: 0.3179
+2017-11-28 04:00:49,388 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 04:04:34,649 [DEBUG]: Epoch 3, Dev loss: 0.1028, Pearson: 0.8492, MSE: 0.2902
+2017-11-28 04:04:34,650 [DEBUG]: Epoch 3, Test loss: 0.0981, Pearson: 0.8552, MSE: 0.2791
+2017-11-28 04:04:34,650 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 04:08:20,480 [DEBUG]: Epoch 4, Dev loss: 0.1022, Pearson: 0.8532, MSE: 0.2843
+2017-11-28 04:08:20,480 [DEBUG]: Epoch 4, Test loss: 0.0979, Pearson: 0.8558, MSE: 0.2778
+2017-11-28 04:08:20,480 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 04:12:06,414 [DEBUG]: Epoch 5, Dev loss: 0.1041, Pearson: 0.8493, MSE: 0.2879
+2017-11-28 04:12:06,415 [DEBUG]: Epoch 5, Test loss: 0.0988, Pearson: 0.8562, MSE: 0.2758
+2017-11-28 04:12:06,415 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 04:15:51,830 [DEBUG]: Epoch 6, Dev loss: 0.1055, Pearson: 0.8455, MSE: 0.2854
+2017-11-28 04:15:51,830 [DEBUG]: Epoch 6, Test loss: 0.0965, Pearson: 0.8614, MSE: 0.2623
+2017-11-28 04:15:51,830 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 04:19:37,332 [DEBUG]: Epoch 7, Dev loss: 0.1052, Pearson: 0.8489, MSE: 0.2801
+2017-11-28 04:19:37,333 [DEBUG]: Epoch 7, Test loss: 0.0991, Pearson: 0.8608, MSE: 0.2667
+2017-11-28 04:23:22,796 [DEBUG]: Epoch 8, Dev loss: 0.1102, Pearson: 0.8444, MSE: 0.2908
+2017-11-28 04:23:22,797 [DEBUG]: Epoch 8, Test loss: 0.0995, Pearson: 0.8603, MSE: 0.2667
+2017-11-28 04:27:08,500 [DEBUG]: Epoch 9, Dev loss: 0.1084, Pearson: 0.8480, MSE: 0.2834
+2017-11-28 04:27:08,500 [DEBUG]: Epoch 9, Test loss: 0.1000, Pearson: 0.8604, MSE: 0.2655
+2017-11-28 04:31:30,210 [DEBUG]: Epoch 10, Train loss: 0.0375, Pearson: 0.9746, MSE: 0.0569
+2017-11-28 04:31:30,210 [DEBUG]: Epoch 10, Dev loss: 0.1108, Pearson: 0.8490, MSE: 0.2817
+2017-11-28 04:31:30,211 [DEBUG]: Epoch 10, Test loss: 0.1023, Pearson: 0.8629, MSE: 0.2661
+2017-11-28 04:31:30,211 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 04:31:30,786 [DEBUG]: Namespace(batch_size=25, cuda=False, data='data/sick/', epochs=10, expname='test', glove='data/glove/', hidden_dim=50, input_dim=300, lr=0.05, mem_dim=150, num_classes=5, optim='adagrad', save='checkpoints/', seed=123, sparse=False, wd=0.0001, with_rels=False)
+2017-11-28 04:31:30,787 [DEBUG]: ==> Depenency Relations size: 37
+2017-11-28 04:31:30,791 [DEBUG]: ==> SICK vocabulary size : 2412 
+2017-11-28 04:31:31,375 [DEBUG]: ==> Size of train data   : 4500 
+2017-11-28 04:31:31,478 [DEBUG]: ==> Size of dev data     : 500 
+2017-11-28 04:31:32,224 [DEBUG]: ==> Size of test data    : 4927 
+2017-11-28 04:35:14,194 [DEBUG]: Epoch 1, Dev loss: 0.1317, Pearson: 0.7785, MSE: 0.4309
+2017-11-28 04:35:14,195 [DEBUG]: Epoch 1, Test loss: 0.1246, Pearson: 0.7890, MSE: 0.4080
+2017-11-28 04:35:14,195 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 04:38:55,943 [DEBUG]: Epoch 2, Dev loss: 0.1105, Pearson: 0.8223, MSE: 0.3490
+2017-11-28 04:38:55,943 [DEBUG]: Epoch 2, Test loss: 0.1073, Pearson: 0.8317, MSE: 0.3373
+2017-11-28 04:38:55,943 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 04:42:38,417 [DEBUG]: Epoch 3, Dev loss: 0.1021, Pearson: 0.8546, MSE: 0.2860
+2017-11-28 04:42:38,417 [DEBUG]: Epoch 3, Test loss: 0.1002, Pearson: 0.8511, MSE: 0.2893
+2017-11-28 04:42:38,417 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 04:46:20,772 [DEBUG]: Epoch 4, Dev loss: 0.0991, Pearson: 0.8592, MSE: 0.2708
+2017-11-28 04:46:20,773 [DEBUG]: Epoch 4, Test loss: 0.0964, Pearson: 0.8589, MSE: 0.2708
+2017-11-28 04:46:20,773 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 04:50:02,598 [DEBUG]: Epoch 5, Dev loss: 0.1002, Pearson: 0.8619, MSE: 0.2715
+2017-11-28 04:50:02,598 [DEBUG]: Epoch 5, Test loss: 0.0994, Pearson: 0.8575, MSE: 0.2780
+2017-11-28 04:53:44,099 [DEBUG]: Epoch 6, Dev loss: 0.1009, Pearson: 0.8534, MSE: 0.2733
+2017-11-28 04:53:44,099 [DEBUG]: Epoch 6, Test loss: 0.0969, Pearson: 0.8597, MSE: 0.2656
+2017-11-28 04:53:44,099 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 04:57:25,874 [DEBUG]: Epoch 7, Dev loss: 0.0978, Pearson: 0.8630, MSE: 0.2552
+2017-11-28 04:57:25,875 [DEBUG]: Epoch 7, Test loss: 0.0972, Pearson: 0.8626, MSE: 0.2607
+2017-11-28 04:57:25,875 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 05:01:04,105 [DEBUG]: Epoch 8, Dev loss: 0.1016, Pearson: 0.8602, MSE: 0.2600
+2017-11-28 05:01:04,105 [DEBUG]: Epoch 8, Test loss: 0.0982, Pearson: 0.8625, MSE: 0.2608
+2017-11-28 05:04:39,629 [DEBUG]: Epoch 9, Dev loss: 0.1014, Pearson: 0.8597, MSE: 0.2619
+2017-11-28 05:04:39,630 [DEBUG]: Epoch 9, Test loss: 0.0998, Pearson: 0.8608, MSE: 0.2644
+2017-11-28 05:08:49,107 [DEBUG]: Epoch 10, Train loss: 0.0361, Pearson: 0.9748, MSE: 0.0561
+2017-11-28 05:08:49,107 [DEBUG]: Epoch 10, Dev loss: 0.1051, Pearson: 0.8607, MSE: 0.2591
+2017-11-28 05:08:49,108 [DEBUG]: Epoch 10, Test loss: 0.1030, Pearson: 0.8614, MSE: 0.2635
+2017-11-28 05:08:49,610 [DEBUG]: Namespace(batch_size=25, cuda=False, data='data/sick/', epochs=10, expname='test', glove='data/glove/', hidden_dim=50, input_dim=300, lr=0.05, mem_dim=150, num_classes=5, optim='adagrad', save='checkpoints/', seed=123, sparse=False, wd=0.0001, with_rels=True)
+2017-11-28 05:08:49,610 [DEBUG]: ==> Depenency Relations size: 37
+2017-11-28 05:08:49,612 [DEBUG]: ==> SICK vocabulary size : 2412 
+2017-11-28 05:08:50,144 [DEBUG]: ==> Size of train data   : 4500 
+2017-11-28 05:08:50,238 [DEBUG]: ==> Size of dev data     : 500 
+2017-11-28 05:08:50,921 [DEBUG]: ==> Size of test data    : 4927 
+2017-11-28 05:12:36,013 [DEBUG]: Epoch 1, Dev loss: 0.1256, Pearson: 0.7906, MSE: 0.4127
+2017-11-28 05:12:36,013 [DEBUG]: Epoch 1, Test loss: 0.1202, Pearson: 0.8024, MSE: 0.3930
+2017-11-28 05:12:36,013 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 05:16:22,876 [DEBUG]: Epoch 2, Dev loss: 0.1063, Pearson: 0.8392, MSE: 0.3127
+2017-11-28 05:16:22,876 [DEBUG]: Epoch 2, Test loss: 0.1043, Pearson: 0.8390, MSE: 0.3132
+2017-11-28 05:16:22,876 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 05:20:07,281 [DEBUG]: Epoch 3, Dev loss: 0.1024, Pearson: 0.8486, MSE: 0.2987
+2017-11-28 05:20:07,282 [DEBUG]: Epoch 3, Test loss: 0.0995, Pearson: 0.8529, MSE: 0.2879
+2017-11-28 05:20:07,282 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 05:23:51,771 [DEBUG]: Epoch 4, Dev loss: 0.0976, Pearson: 0.8546, MSE: 0.2715
+2017-11-28 05:23:51,771 [DEBUG]: Epoch 4, Test loss: 0.0980, Pearson: 0.8515, MSE: 0.2814
+2017-11-28 05:27:35,273 [DEBUG]: Epoch 5, Dev loss: 0.0978, Pearson: 0.8601, MSE: 0.2656
+2017-11-28 05:27:35,273 [DEBUG]: Epoch 5, Test loss: 0.0951, Pearson: 0.8631, MSE: 0.2617
+2017-11-28 05:27:35,273 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 05:31:19,380 [DEBUG]: Epoch 6, Dev loss: 0.1006, Pearson: 0.8574, MSE: 0.2684
+2017-11-28 05:31:19,381 [DEBUG]: Epoch 6, Test loss: 0.0975, Pearson: 0.8617, MSE: 0.2638
+2017-11-28 05:35:03,405 [DEBUG]: Epoch 7, Dev loss: 0.1014, Pearson: 0.8589, MSE: 0.2623
+2017-11-28 05:35:03,405 [DEBUG]: Epoch 7, Test loss: 0.0964, Pearson: 0.8652, MSE: 0.2557
+2017-11-28 05:35:03,405 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 05:38:47,180 [DEBUG]: Epoch 8, Dev loss: 0.1014, Pearson: 0.8577, MSE: 0.2680
+2017-11-28 05:38:47,181 [DEBUG]: Epoch 8, Test loss: 0.1010, Pearson: 0.8602, MSE: 0.2720
+2017-11-28 05:42:31,292 [DEBUG]: Epoch 9, Dev loss: 0.1082, Pearson: 0.8495, MSE: 0.2793
+2017-11-28 05:42:31,292 [DEBUG]: Epoch 9, Test loss: 0.0997, Pearson: 0.8628, MSE: 0.2600
+2017-11-28 05:46:49,954 [DEBUG]: Epoch 10, Train loss: 0.0367, Pearson: 0.9743, MSE: 0.0533
+2017-11-28 05:46:49,954 [DEBUG]: Epoch 10, Dev loss: 0.1054, Pearson: 0.8534, MSE: 0.2724
+2017-11-28 05:46:49,954 [DEBUG]: Epoch 10, Test loss: 0.1019, Pearson: 0.8608, MSE: 0.2661
+2017-11-28 05:46:50,457 [DEBUG]: Namespace(batch_size=25, cuda=False, data='data/sick/', epochs=10, expname='test', glove='data/glove/', hidden_dim=50, input_dim=300, lr=0.05, mem_dim=150, num_classes=5, optim='adagrad', save='checkpoints/', seed=123, sparse=False, wd=0.0001, with_rels=True)
+2017-11-28 05:46:50,458 [DEBUG]: ==> Depenency Relations size: 37
+2017-11-28 05:46:50,460 [DEBUG]: ==> SICK vocabulary size : 2412 
+2017-11-28 05:46:51,007 [DEBUG]: ==> Size of train data   : 4500 
+2017-11-28 05:46:51,100 [DEBUG]: ==> Size of dev data     : 500 
+2017-11-28 05:46:51,768 [DEBUG]: ==> Size of test data    : 4927 
+2017-11-28 05:50:37,131 [DEBUG]: Epoch 1, Dev loss: 0.1266, Pearson: 0.7814, MSE: 0.4331
+2017-11-28 05:50:37,131 [DEBUG]: Epoch 1, Test loss: 0.1207, Pearson: 0.7983, MSE: 0.4074
+2017-11-28 05:50:37,131 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 05:54:23,485 [DEBUG]: Epoch 2, Dev loss: 0.1066, Pearson: 0.8409, MSE: 0.3160
+2017-11-28 05:54:23,485 [DEBUG]: Epoch 2, Test loss: 0.1066, Pearson: 0.8359, MSE: 0.3269
+2017-11-28 05:54:23,485 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 05:58:09,045 [DEBUG]: Epoch 3, Dev loss: 0.0974, Pearson: 0.8599, MSE: 0.2701
+2017-11-28 05:58:09,045 [DEBUG]: Epoch 3, Test loss: 0.0986, Pearson: 0.8516, MSE: 0.2845
+2017-11-28 05:58:09,045 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 06:01:54,238 [DEBUG]: Epoch 4, Dev loss: 0.0934, Pearson: 0.8683, MSE: 0.2505
+2017-11-28 06:01:54,239 [DEBUG]: Epoch 4, Test loss: 0.0963, Pearson: 0.8564, MSE: 0.2733
+2017-11-28 06:01:54,239 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 06:05:39,124 [DEBUG]: Epoch 5, Dev loss: 0.0938, Pearson: 0.8678, MSE: 0.2493
+2017-11-28 06:05:39,124 [DEBUG]: Epoch 5, Test loss: 0.0954, Pearson: 0.8607, MSE: 0.2646
+2017-11-28 06:05:39,124 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 06:09:23,982 [DEBUG]: Epoch 6, Dev loss: 0.0935, Pearson: 0.8685, MSE: 0.2464
+2017-11-28 06:09:23,982 [DEBUG]: Epoch 6, Test loss: 0.0950, Pearson: 0.8641, MSE: 0.2585
+2017-11-28 06:09:23,982 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 06:13:08,235 [DEBUG]: Epoch 7, Dev loss: 0.0961, Pearson: 0.8681, MSE: 0.2458
+2017-11-28 06:13:08,236 [DEBUG]: Epoch 7, Test loss: 0.0956, Pearson: 0.8659, MSE: 0.2552
+2017-11-28 06:13:08,236 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 06:16:52,593 [DEBUG]: Epoch 8, Dev loss: 0.0997, Pearson: 0.8631, MSE: 0.2624
+2017-11-28 06:16:52,593 [DEBUG]: Epoch 8, Test loss: 0.1001, Pearson: 0.8635, MSE: 0.2686
+2017-11-28 06:20:37,550 [DEBUG]: Epoch 9, Dev loss: 0.1024, Pearson: 0.8629, MSE: 0.2590
+2017-11-28 06:20:37,550 [DEBUG]: Epoch 9, Test loss: 0.1002, Pearson: 0.8637, MSE: 0.2594
+2017-11-28 06:24:57,389 [DEBUG]: Epoch 10, Train loss: 0.0380, Pearson: 0.9721, MSE: 0.0581
+2017-11-28 06:24:57,389 [DEBUG]: Epoch 10, Dev loss: 0.1031, Pearson: 0.8621, MSE: 0.2585
+2017-11-28 06:24:57,389 [DEBUG]: Epoch 10, Test loss: 0.1018, Pearson: 0.8612, MSE: 0.2649
+2017-11-28 06:24:57,919 [DEBUG]: Namespace(batch_size=25, cuda=False, data='data/sick/', epochs=10, expname='test', glove='data/glove/', hidden_dim=50, input_dim=300, lr=0.05, mem_dim=150, num_classes=5, optim='adagrad', save='checkpoints/', seed=123, sparse=False, wd=0.0001, with_rels=True)
+2017-11-28 06:24:57,919 [DEBUG]: ==> Depenency Relations size: 37
+2017-11-28 06:24:57,922 [DEBUG]: ==> SICK vocabulary size : 2412 
+2017-11-28 06:24:58,466 [DEBUG]: ==> Size of train data   : 4500 
+2017-11-28 06:24:58,563 [DEBUG]: ==> Size of dev data     : 500 
+2017-11-28 06:24:59,239 [DEBUG]: ==> Size of test data    : 4927 
+2017-11-28 06:28:44,623 [DEBUG]: Epoch 1, Dev loss: 0.1275, Pearson: 0.7811, MSE: 0.4311
+2017-11-28 06:28:44,624 [DEBUG]: Epoch 1, Test loss: 0.1215, Pearson: 0.7939, MSE: 0.4160
+2017-11-28 06:28:44,624 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 06:32:31,368 [DEBUG]: Epoch 2, Dev loss: 0.1054, Pearson: 0.8443, MSE: 0.3078
+2017-11-28 06:32:31,369 [DEBUG]: Epoch 2, Test loss: 0.1075, Pearson: 0.8288, MSE: 0.3322
+2017-11-28 06:32:31,369 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 06:36:16,271 [DEBUG]: Epoch 3, Dev loss: 0.0991, Pearson: 0.8535, MSE: 0.2808
+2017-11-28 06:36:16,271 [DEBUG]: Epoch 3, Test loss: 0.0999, Pearson: 0.8488, MSE: 0.2906
+2017-11-28 06:36:16,271 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 06:40:01,643 [DEBUG]: Epoch 4, Dev loss: 0.0945, Pearson: 0.8633, MSE: 0.2545
+2017-11-28 06:40:01,644 [DEBUG]: Epoch 4, Test loss: 0.0975, Pearson: 0.8523, MSE: 0.2791
+2017-11-28 06:40:01,644 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 06:43:46,669 [DEBUG]: Epoch 5, Dev loss: 0.0964, Pearson: 0.8642, MSE: 0.2574
+2017-11-28 06:43:46,669 [DEBUG]: Epoch 5, Test loss: 0.0958, Pearson: 0.8594, MSE: 0.2670
+2017-11-28 06:43:46,669 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 06:47:31,221 [DEBUG]: Epoch 6, Dev loss: 0.0963, Pearson: 0.8638, MSE: 0.2538
+2017-11-28 06:47:31,221 [DEBUG]: Epoch 6, Test loss: 0.0971, Pearson: 0.8594, MSE: 0.2661
+2017-11-28 06:47:31,221 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 06:51:15,754 [DEBUG]: Epoch 7, Dev loss: 0.0972, Pearson: 0.8689, MSE: 0.2462
+2017-11-28 06:51:15,754 [DEBUG]: Epoch 7, Test loss: 0.0986, Pearson: 0.8624, MSE: 0.2653
+2017-11-28 06:51:15,754 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 06:55:00,557 [DEBUG]: Epoch 8, Dev loss: 0.0980, Pearson: 0.8708, MSE: 0.2490
+2017-11-28 06:55:00,557 [DEBUG]: Epoch 8, Test loss: 0.1043, Pearson: 0.8574, MSE: 0.2833
+2017-11-28 06:58:45,447 [DEBUG]: Epoch 9, Dev loss: 0.1039, Pearson: 0.8589, MSE: 0.2633
+2017-11-28 06:58:45,448 [DEBUG]: Epoch 9, Test loss: 0.1014, Pearson: 0.8590, MSE: 0.2667
+2017-11-28 07:03:05,399 [DEBUG]: Epoch 10, Train loss: 0.0374, Pearson: 0.9728, MSE: 0.0567
+2017-11-28 07:03:05,399 [DEBUG]: Epoch 10, Dev loss: 0.1051, Pearson: 0.8573, MSE: 0.2679
+2017-11-28 07:03:05,399 [DEBUG]: Epoch 10, Test loss: 0.1042, Pearson: 0.8565, MSE: 0.2740
+2017-11-28 07:03:05,907 [DEBUG]: Namespace(batch_size=25, cuda=False, data='data/sick/', epochs=10, expname='test', glove='data/glove/', hidden_dim=50, input_dim=300, lr=0.05, mem_dim=150, num_classes=5, optim='adagrad', save='checkpoints/', seed=123, sparse=False, wd=0.0001, with_rels=True)
+2017-11-28 07:03:05,907 [DEBUG]: ==> Depenency Relations size: 37
+2017-11-28 07:03:05,910 [DEBUG]: ==> SICK vocabulary size : 2412 
+2017-11-28 07:03:06,455 [DEBUG]: ==> Size of train data   : 4500 
+2017-11-28 07:03:06,547 [DEBUG]: ==> Size of dev data     : 500 
+2017-11-28 07:03:07,236 [DEBUG]: ==> Size of test data    : 4927 
+2017-11-28 07:06:51,817 [DEBUG]: Epoch 1, Dev loss: 0.1260, Pearson: 0.7896, MSE: 0.4166
+2017-11-28 07:06:51,817 [DEBUG]: Epoch 1, Test loss: 0.1188, Pearson: 0.8089, MSE: 0.3861
+2017-11-28 07:06:51,817 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 07:10:36,795 [DEBUG]: Epoch 2, Dev loss: 0.1094, Pearson: 0.8323, MSE: 0.3259
+2017-11-28 07:10:36,795 [DEBUG]: Epoch 2, Test loss: 0.1050, Pearson: 0.8390, MSE: 0.3143
+2017-11-28 07:10:36,795 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 07:14:20,192 [DEBUG]: Epoch 3, Dev loss: 0.1009, Pearson: 0.8529, MSE: 0.2855
+2017-11-28 07:14:20,192 [DEBUG]: Epoch 3, Test loss: 0.1007, Pearson: 0.8459, MSE: 0.2948
+2017-11-28 07:14:20,192 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 07:18:03,370 [DEBUG]: Epoch 4, Dev loss: 0.0972, Pearson: 0.8568, MSE: 0.2701
+2017-11-28 07:18:03,370 [DEBUG]: Epoch 4, Test loss: 0.0987, Pearson: 0.8497, MSE: 0.2849
+2017-11-28 07:18:03,370 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 07:21:47,710 [DEBUG]: Epoch 5, Dev loss: 0.0939, Pearson: 0.8718, MSE: 0.2458
+2017-11-28 07:21:47,711 [DEBUG]: Epoch 5, Test loss: 0.0954, Pearson: 0.8603, MSE: 0.2655
+2017-11-28 07:21:47,711 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 07:25:31,577 [DEBUG]: Epoch 6, Dev loss: 0.0974, Pearson: 0.8635, MSE: 0.2559
+2017-11-28 07:25:31,577 [DEBUG]: Epoch 6, Test loss: 0.0975, Pearson: 0.8589, MSE: 0.2672
+2017-11-28 07:29:15,166 [DEBUG]: Epoch 7, Dev loss: 0.0983, Pearson: 0.8666, MSE: 0.2491
+2017-11-28 07:29:15,167 [DEBUG]: Epoch 7, Test loss: 0.0981, Pearson: 0.8633, MSE: 0.2623
+2017-11-28 07:29:15,167 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 07:32:58,146 [DEBUG]: Epoch 8, Dev loss: 0.1010, Pearson: 0.8601, MSE: 0.2630
+2017-11-28 07:32:58,146 [DEBUG]: Epoch 8, Test loss: 0.1033, Pearson: 0.8555, MSE: 0.2821
+2017-11-28 07:36:40,967 [DEBUG]: Epoch 9, Dev loss: 0.1042, Pearson: 0.8639, MSE: 0.2618
+2017-11-28 07:36:40,967 [DEBUG]: Epoch 9, Test loss: 0.1021, Pearson: 0.8607, MSE: 0.2675
+2017-11-28 07:40:58,838 [DEBUG]: Epoch 10, Train loss: 0.0375, Pearson: 0.9722, MSE: 0.0575
+2017-11-28 07:40:58,838 [DEBUG]: Epoch 10, Dev loss: 0.1060, Pearson: 0.8562, MSE: 0.2675
+2017-11-28 07:40:58,838 [DEBUG]: Epoch 10, Test loss: 0.1040, Pearson: 0.8575, MSE: 0.2721
+2017-11-28 07:40:59,375 [DEBUG]: Namespace(batch_size=25, cuda=False, data='data/sick/', epochs=10, expname='test', glove='data/glove/', hidden_dim=50, input_dim=300, lr=0.05, mem_dim=150, num_classes=5, optim='adagrad', save='checkpoints/', seed=123, sparse=False, wd=0.0001, with_rels=True)
+2017-11-28 07:40:59,375 [DEBUG]: ==> Depenency Relations size: 37
+2017-11-28 07:40:59,378 [DEBUG]: ==> SICK vocabulary size : 2412 
+2017-11-28 07:40:59,925 [DEBUG]: ==> Size of train data   : 4500 
+2017-11-28 07:41:00,020 [DEBUG]: ==> Size of dev data     : 500 
+2017-11-28 07:41:00,716 [DEBUG]: ==> Size of test data    : 4927 
+2017-11-28 07:44:42,113 [DEBUG]: Epoch 1, Dev loss: 0.1296, Pearson: 0.7573, MSE: 0.4583
+2017-11-28 07:44:42,113 [DEBUG]: Epoch 1, Test loss: 0.1207, Pearson: 0.7927, MSE: 0.4088
+2017-11-28 07:44:42,113 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 07:48:24,615 [DEBUG]: Epoch 2, Dev loss: 0.1070, Pearson: 0.8359, MSE: 0.3228
+2017-11-28 07:48:24,615 [DEBUG]: Epoch 2, Test loss: 0.1060, Pearson: 0.8354, MSE: 0.3224
+2017-11-28 07:48:24,615 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 07:52:05,066 [DEBUG]: Epoch 3, Dev loss: 0.1041, Pearson: 0.8433, MSE: 0.3043
+2017-11-28 07:52:05,066 [DEBUG]: Epoch 3, Test loss: 0.0986, Pearson: 0.8542, MSE: 0.2837
+2017-11-28 07:52:05,066 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 07:55:45,809 [DEBUG]: Epoch 4, Dev loss: 0.0980, Pearson: 0.8536, MSE: 0.2758
+2017-11-28 07:55:45,809 [DEBUG]: Epoch 4, Test loss: 0.0969, Pearson: 0.8535, MSE: 0.2799
+2017-11-28 07:59:25,983 [DEBUG]: Epoch 5, Dev loss: 0.0981, Pearson: 0.8563, MSE: 0.2689
+2017-11-28 07:59:25,983 [DEBUG]: Epoch 5, Test loss: 0.0938, Pearson: 0.8639, MSE: 0.2583
+2017-11-28 07:59:25,984 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 08:03:06,262 [DEBUG]: Epoch 6, Dev loss: 0.1006, Pearson: 0.8530, MSE: 0.2731
+2017-11-28 08:03:06,263 [DEBUG]: Epoch 6, Test loss: 0.0942, Pearson: 0.8661, MSE: 0.2546
+2017-11-28 08:03:06,263 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 08:06:46,251 [DEBUG]: Epoch 7, Dev loss: 0.1024, Pearson: 0.8582, MSE: 0.2671
+2017-11-28 08:06:46,251 [DEBUG]: Epoch 7, Test loss: 0.0989, Pearson: 0.8643, MSE: 0.2621
+2017-11-28 08:10:26,155 [DEBUG]: Epoch 8, Dev loss: 0.1019, Pearson: 0.8599, MSE: 0.2693
+2017-11-28 08:10:26,156 [DEBUG]: Epoch 8, Test loss: 0.1018, Pearson: 0.8620, MSE: 0.2752
+2017-11-28 08:14:06,790 [DEBUG]: Epoch 9, Dev loss: 0.1056, Pearson: 0.8576, MSE: 0.2704
+2017-11-28 08:14:06,790 [DEBUG]: Epoch 9, Test loss: 0.1006, Pearson: 0.8627, MSE: 0.2628
+2017-11-28 08:18:21,874 [DEBUG]: Epoch 10, Train loss: 0.0384, Pearson: 0.9720, MSE: 0.0587
+2017-11-28 08:18:21,875 [DEBUG]: Epoch 10, Dev loss: 0.1024, Pearson: 0.8601, MSE: 0.2604
+2017-11-28 08:18:21,875 [DEBUG]: Epoch 10, Test loss: 0.1012, Pearson: 0.8626, MSE: 0.2634
+2017-11-28 12:17:12,355 [DEBUG]: Namespace(batch_size=25, cuda=False, data='data/sick/', epochs=10, expname='test', glove='data/glove/', hidden_dim=50, input_dim=300, lr=0.05, mem_dim=150, num_classes=5, optim='adagrad', save='checkpoints/', seed=123, sparse=False, wd=0.0001, with_rels=False)
+2017-11-28 12:17:12,356 [DEBUG]: ==> Depenency Relations size: 37
+2017-11-28 12:17:12,358 [DEBUG]: ==> SICK vocabulary size : 2412 
+2017-11-28 12:17:12,947 [DEBUG]: ==> Size of train data   : 4500 
+2017-11-28 12:17:13,071 [DEBUG]: ==> Size of dev data     : 500 
+2017-11-28 12:17:13,777 [DEBUG]: ==> Size of test data    : 4927 
+2017-11-28 12:20:12,614 [DEBUG]: Epoch 1, Dev loss: 0.1418, Pearson: 0.7468, MSE: 0.5333
+2017-11-28 12:20:12,615 [DEBUG]: Epoch 1, Test loss: 0.1355, Pearson: 0.7649, MSE: 0.4934
+2017-11-28 12:20:12,615 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 12:23:12,579 [DEBUG]: Epoch 2, Dev loss: 0.1125, Pearson: 0.8216, MSE: 0.3411
+2017-11-28 12:23:12,580 [DEBUG]: Epoch 2, Test loss: 0.1095, Pearson: 0.8254, MSE: 0.3331
+2017-11-28 12:23:12,580 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 12:26:11,744 [DEBUG]: Epoch 3, Dev loss: 0.1000, Pearson: 0.8599, MSE: 0.2792
+2017-11-28 12:26:11,745 [DEBUG]: Epoch 3, Test loss: 0.1007, Pearson: 0.8504, MSE: 0.2914
+2017-11-28 12:26:11,745 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 12:29:10,528 [DEBUG]: Epoch 4, Dev loss: 0.0983, Pearson: 0.8603, MSE: 0.2700
+2017-11-28 12:29:10,528 [DEBUG]: Epoch 4, Test loss: 0.0965, Pearson: 0.8616, MSE: 0.2705
+2017-11-28 12:29:10,528 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 12:32:10,099 [DEBUG]: Epoch 5, Dev loss: 0.0945, Pearson: 0.8682, MSE: 0.2461
+2017-11-28 12:32:10,099 [DEBUG]: Epoch 5, Test loss: 0.0964, Pearson: 0.8600, MSE: 0.2681
+2017-11-28 12:35:09,242 [DEBUG]: Epoch 6, Dev loss: 0.0932, Pearson: 0.8731, MSE: 0.2411
+2017-11-28 12:35:09,242 [DEBUG]: Epoch 6, Test loss: 0.0952, Pearson: 0.8645, MSE: 0.2595
+2017-11-28 12:35:09,242 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 12:38:09,737 [DEBUG]: Epoch 7, Dev loss: 0.0961, Pearson: 0.8701, MSE: 0.2466
+2017-11-28 12:38:09,737 [DEBUG]: Epoch 7, Test loss: 0.0975, Pearson: 0.8632, MSE: 0.2599
+2017-11-28 12:41:08,938 [DEBUG]: Epoch 8, Dev loss: 0.0957, Pearson: 0.8723, MSE: 0.2392
+2017-11-28 12:41:08,938 [DEBUG]: Epoch 8, Test loss: 0.0975, Pearson: 0.8657, MSE: 0.2583
+2017-11-28 12:41:08,938 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 12:44:08,248 [DEBUG]: Epoch 9, Dev loss: 0.1014, Pearson: 0.8633, MSE: 0.2547
+2017-11-28 12:44:08,248 [DEBUG]: Epoch 9, Test loss: 0.1023, Pearson: 0.8597, MSE: 0.2682
+2017-11-28 12:47:36,516 [DEBUG]: Epoch 10, Train loss: 0.0399, Pearson: 0.9713, MSE: 0.0655
+2017-11-28 12:47:36,516 [DEBUG]: Epoch 10, Dev loss: 0.1074, Pearson: 0.8610, MSE: 0.2674
+2017-11-28 12:47:36,516 [DEBUG]: Epoch 10, Test loss: 0.1035, Pearson: 0.8613, MSE: 0.2682
+2017-11-28 13:44:58,373 [DEBUG]: Namespace(batch_size=25, cuda=False, data='data/sick/', epochs=10, expname='test', glove='data/glove/', hidden_dim=50, input_dim=300, lr=0.05, mem_dim=150, num_classes=5, optim='adagrad', save='checkpoints/', seed=123, sparse=False, wd=0.0001, with_rels=False)
+2017-11-28 13:44:58,373 [DEBUG]: ==> Depenency Relations size: 37
+2017-11-28 13:44:58,376 [DEBUG]: ==> SICK vocabulary size : 2412 
+2017-11-28 13:44:59,070 [DEBUG]: ==> Size of train data   : 4500 
+2017-11-28 13:44:59,174 [DEBUG]: ==> Size of dev data     : 500 
+2017-11-28 13:44:59,877 [DEBUG]: ==> Size of test data    : 4927 
+2017-11-28 13:48:41,733 [DEBUG]: Epoch 1, Dev loss: 0.1274, Pearson: 0.7750, MSE: 0.4171
+2017-11-28 13:48:41,733 [DEBUG]: Epoch 1, Test loss: 0.1244, Pearson: 0.7721, MSE: 0.4159
+2017-11-28 13:48:41,733 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 13:52:19,615 [DEBUG]: Epoch 2, Dev loss: 0.1042, Pearson: 0.8400, MSE: 0.2954
+2017-11-28 13:52:19,615 [DEBUG]: Epoch 2, Test loss: 0.1035, Pearson: 0.8416, MSE: 0.2965
+2017-11-28 13:52:19,615 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 13:55:57,452 [DEBUG]: Epoch 3, Dev loss: 0.0973, Pearson: 0.8636, MSE: 0.2540
+2017-11-28 13:55:57,453 [DEBUG]: Epoch 3, Test loss: 0.0979, Pearson: 0.8543, MSE: 0.2756
+2017-11-28 13:55:57,453 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 13:59:35,722 [DEBUG]: Epoch 4, Dev loss: 0.0941, Pearson: 0.8690, MSE: 0.2480
+2017-11-28 13:59:35,722 [DEBUG]: Epoch 4, Test loss: 0.0958, Pearson: 0.8579, MSE: 0.2699
+2017-11-28 13:59:35,722 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 14:03:14,498 [DEBUG]: Epoch 5, Dev loss: 0.0930, Pearson: 0.8709, MSE: 0.2420
+2017-11-28 14:03:14,498 [DEBUG]: Epoch 5, Test loss: 0.0925, Pearson: 0.8670, MSE: 0.2523
+2017-11-28 14:03:14,498 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 14:06:52,834 [DEBUG]: Epoch 6, Dev loss: 0.0929, Pearson: 0.8739, MSE: 0.2366
+2017-11-28 14:06:52,834 [DEBUG]: Epoch 6, Test loss: 0.0944, Pearson: 0.8657, MSE: 0.2556
+2017-11-28 14:10:31,573 [DEBUG]: Epoch 7, Dev loss: 0.0921, Pearson: 0.8762, MSE: 0.2321
+2017-11-28 14:10:31,574 [DEBUG]: Epoch 7, Test loss: 0.0952, Pearson: 0.8674, MSE: 0.2543
+2017-11-28 14:10:31,574 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 14:14:09,198 [DEBUG]: Epoch 8, Dev loss: 0.0990, Pearson: 0.8663, MSE: 0.2521
+2017-11-28 14:14:09,198 [DEBUG]: Epoch 8, Test loss: 0.0985, Pearson: 0.8655, MSE: 0.2626
+2017-11-28 14:17:46,864 [DEBUG]: Epoch 9, Dev loss: 0.1006, Pearson: 0.8636, MSE: 0.2565
+2017-11-28 14:17:46,864 [DEBUG]: Epoch 9, Test loss: 0.0959, Pearson: 0.8691, MSE: 0.2504
+2017-11-28 14:17:46,864 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 14:22:04,690 [DEBUG]: Epoch 10, Train loss: 0.0380, Pearson: 0.9731, MSE: 0.0609
+2017-11-28 14:22:04,690 [DEBUG]: Epoch 10, Dev loss: 0.1041, Pearson: 0.8670, MSE: 0.2549
+2017-11-28 14:22:04,690 [DEBUG]: Epoch 10, Test loss: 0.1013, Pearson: 0.8652, MSE: 0.2592
+2017-11-28 14:34:38,750 [DEBUG]: Namespace(batch_size=25, cuda=False, data='data/sick/', epochs=10, expname='test', glove='data/glove/', hidden_dim=50, input_dim=300, lr=0.05, mem_dim=150, num_classes=5, optim='adagrad', save='checkpoints/', seed=123, sparse=False, wd=0.0001, with_rels=True)
+2017-11-28 14:34:38,750 [DEBUG]: ==> Depenency Relations size: 37
+2017-11-28 14:34:38,752 [DEBUG]: ==> SICK vocabulary size : 2412 
+2017-11-28 14:34:39,359 [DEBUG]: ==> Size of train data   : 4500 
+2017-11-28 14:34:39,494 [DEBUG]: ==> Size of dev data     : 500 
+2017-11-28 14:34:40,325 [DEBUG]: ==> Size of test data    : 4927 
+2017-11-28 14:38:22,444 [DEBUG]: Epoch 1, Dev loss: 0.1274, Pearson: 0.7696, MSE: 0.4342
+2017-11-28 14:38:22,444 [DEBUG]: Epoch 1, Test loss: 0.1237, Pearson: 0.7767, MSE: 0.4207
+2017-11-28 14:38:22,444 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 14:42:04,333 [DEBUG]: Epoch 2, Dev loss: 0.1142, Pearson: 0.8337, MSE: 0.3442
+2017-11-28 14:42:04,333 [DEBUG]: Epoch 2, Test loss: 0.1104, Pearson: 0.8406, MSE: 0.3382
+2017-11-28 14:42:04,333 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 14:45:46,389 [DEBUG]: Epoch 3, Dev loss: 0.1020, Pearson: 0.8553, MSE: 0.2757
+2017-11-28 14:45:46,389 [DEBUG]: Epoch 3, Test loss: 0.0995, Pearson: 0.8531, MSE: 0.2831
+2017-11-28 14:45:46,389 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 14:49:28,982 [DEBUG]: Epoch 4, Dev loss: 0.0971, Pearson: 0.8589, MSE: 0.2641
+2017-11-28 14:49:28,982 [DEBUG]: Epoch 4, Test loss: 0.0954, Pearson: 0.8590, MSE: 0.2667
+2017-11-28 14:49:28,982 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 14:53:11,562 [DEBUG]: Epoch 5, Dev loss: 0.0971, Pearson: 0.8636, MSE: 0.2638
+2017-11-28 14:53:11,562 [DEBUG]: Epoch 5, Test loss: 0.0956, Pearson: 0.8613, MSE: 0.2684
+2017-11-28 14:53:11,562 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 14:56:57,189 [DEBUG]: Epoch 6, Dev loss: 0.0984, Pearson: 0.8648, MSE: 0.2601
+2017-11-28 14:56:57,189 [DEBUG]: Epoch 6, Test loss: 0.0943, Pearson: 0.8670, MSE: 0.2568
+2017-11-28 14:56:57,189 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 15:00:50,540 [DEBUG]: Epoch 7, Dev loss: 0.1012, Pearson: 0.8619, MSE: 0.2722
+2017-11-28 15:00:50,541 [DEBUG]: Epoch 7, Test loss: 0.0971, Pearson: 0.8660, MSE: 0.2644
+2017-11-28 15:04:42,983 [DEBUG]: Epoch 8, Dev loss: 0.0967, Pearson: 0.8660, MSE: 0.2497
+2017-11-28 15:04:42,983 [DEBUG]: Epoch 8, Test loss: 0.0932, Pearson: 0.8700, MSE: 0.2473
+2017-11-28 15:04:42,983 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 15:08:26,099 [DEBUG]: Epoch 9, Dev loss: 0.1000, Pearson: 0.8643, MSE: 0.2533
+2017-11-28 15:08:26,099 [DEBUG]: Epoch 9, Test loss: 0.0950, Pearson: 0.8705, MSE: 0.2465
+2017-11-28 15:08:26,099 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 15:12:48,994 [DEBUG]: Epoch 10, Train loss: 0.0378, Pearson: 0.9729, MSE: 0.0570
+2017-11-28 15:12:48,995 [DEBUG]: Epoch 10, Dev loss: 0.1047, Pearson: 0.8570, MSE: 0.2664
+2017-11-28 15:12:48,995 [DEBUG]: Epoch 10, Test loss: 0.0971, Pearson: 0.8687, MSE: 0.2496
+2017-11-28 15:27:58,553 [DEBUG]: Namespace(batch_size=25, cuda=False, data='data/sick/', epochs=10, expname='test', glove='data/glove/', hidden_dim=50, input_dim=300, lr=0.05, mem_dim=150, num_classes=5, optim='adagrad', save='checkpoints/', seed=123, sparse=False, wd=0.0001, with_rels=True)
+2017-11-28 15:27:58,553 [DEBUG]: ==> Depenency Relations size: 37
+2017-11-28 15:27:58,555 [DEBUG]: ==> SICK vocabulary size : 2412 
+2017-11-28 15:27:59,182 [DEBUG]: ==> Size of train data   : 4500 
+2017-11-28 15:27:59,302 [DEBUG]: ==> Size of dev data     : 500 
+2017-11-28 15:27:59,992 [DEBUG]: ==> Size of test data    : 4927 
+2017-11-28 15:31:43,409 [DEBUG]: Epoch 1, Dev loss: 0.1279, Pearson: 0.7766, MSE: 0.4309
+2017-11-28 15:31:43,409 [DEBUG]: Epoch 1, Test loss: 0.1229, Pearson: 0.7906, MSE: 0.4042
+2017-11-28 15:31:43,409 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 15:35:26,360 [DEBUG]: Epoch 2, Dev loss: 0.1099, Pearson: 0.8365, MSE: 0.3186
+2017-11-28 15:35:26,360 [DEBUG]: Epoch 2, Test loss: 0.1078, Pearson: 0.8390, MSE: 0.3204
+2017-11-28 15:35:26,360 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 15:39:08,131 [DEBUG]: Epoch 3, Dev loss: 0.1005, Pearson: 0.8550, MSE: 0.2750
+2017-11-28 15:39:08,131 [DEBUG]: Epoch 3, Test loss: 0.0994, Pearson: 0.8560, MSE: 0.2826
+2017-11-28 15:39:08,131 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 15:42:50,405 [DEBUG]: Epoch 4, Dev loss: 0.0953, Pearson: 0.8637, MSE: 0.2535
+2017-11-28 15:42:50,406 [DEBUG]: Epoch 4, Test loss: 0.0940, Pearson: 0.8645, MSE: 0.2574
+2017-11-28 15:42:50,406 [DEBUG]: ====> New optimum found, saving checkpoint ...
