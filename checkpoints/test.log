@@ -452,3 +452,19 @@
 2017-11-28 15:42:50,405 [DEBUG]: Epoch 4, Dev loss: 0.0953, Pearson: 0.8637, MSE: 0.2535
 2017-11-28 15:42:50,406 [DEBUG]: Epoch 4, Test loss: 0.0940, Pearson: 0.8645, MSE: 0.2574
 2017-11-28 15:42:50,406 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 15:46:29,546 [DEBUG]: Epoch 5, Dev loss: 0.0985, Pearson: 0.8612, MSE: 0.2699
+2017-11-28 15:46:29,546 [DEBUG]: Epoch 5, Test loss: 0.0948, Pearson: 0.8639, MSE: 0.2644
+2017-11-28 15:50:08,053 [DEBUG]: Epoch 6, Dev loss: 0.0994, Pearson: 0.8627, MSE: 0.2641
+2017-11-28 15:50:08,053 [DEBUG]: Epoch 6, Test loss: 0.0952, Pearson: 0.8648, MSE: 0.2610
+2017-11-28 15:50:08,053 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 15:53:46,205 [DEBUG]: Epoch 7, Dev loss: 0.1035, Pearson: 0.8639, MSE: 0.2787
+2017-11-28 15:53:46,205 [DEBUG]: Epoch 7, Test loss: 0.0996, Pearson: 0.8658, MSE: 0.2738
+2017-11-28 15:53:46,205 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 15:57:25,395 [DEBUG]: Epoch 8, Dev loss: 0.0962, Pearson: 0.8654, MSE: 0.2507
+2017-11-28 15:57:25,395 [DEBUG]: Epoch 8, Test loss: 0.0962, Pearson: 0.8645, MSE: 0.2572
+2017-11-28 16:01:03,092 [DEBUG]: Epoch 9, Dev loss: 0.1017, Pearson: 0.8621, MSE: 0.2580
+2017-11-28 16:01:03,092 [DEBUG]: Epoch 9, Test loss: 0.0964, Pearson: 0.8695, MSE: 0.2487
+2017-11-28 16:01:03,092 [DEBUG]: ====> New optimum found, saving checkpoint ...
+2017-11-28 16:05:15,986 [DEBUG]: Epoch 10, Train loss: 0.0380, Pearson: 0.9718, MSE: 0.0600
+2017-11-28 16:05:15,986 [DEBUG]: Epoch 10, Dev loss: 0.1047, Pearson: 0.8581, MSE: 0.2640
+2017-11-28 16:05:15,987 [DEBUG]: Epoch 10, Test loss: 0.1002, Pearson: 0.8635, MSE: 0.2604
